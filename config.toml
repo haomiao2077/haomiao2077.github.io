@@ -1,4 +1,4 @@
 baseURL = 'http://haomiao2077.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "papermod"
+title = 'Haomiao'
+theme = "PaperMod"
