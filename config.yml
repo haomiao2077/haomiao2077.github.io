@@ -1,0 +1,53 @@
+baseURL: "http://haomiao2077.github.io"
+languageCode: "en-us"
+title: "Haomiao"
+theme: "PaperMod"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  ShowReadingTime: true
+  homeInfoParams:
+    Title: "PaperMod"
+    Content: >
+        Welcome to demo of hugo's theme PaperMod.
+
+        - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+
+        - Do give a 🌟 on Github !
+
+        - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 10
+    - name: Search
+      url: search
+      weight: 20
+    - name: Tags
+      url: tags/
+      weight: 20
+    - name: Categories
+      url: categories/
+      weight: 20
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON

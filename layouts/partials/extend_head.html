@@ -1,0 +1,32 @@
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+
+<style>
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), local('Merriweather-Regular'),
+       url('../../static/fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
+       url('../../static/fonts/merriweather-v13-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../../static/fonts/lato-v11-latin-regular.woff2') format('woff2'),
+       url('../../static/fonts/lato-v11-latin-regular.woff') format('woff');
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, .footer, .toc, .post-meta ,.entry-header, .entry-content, .entry-footer, .nav{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+} 
+</style>
+
