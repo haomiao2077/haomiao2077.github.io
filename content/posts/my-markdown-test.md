@@ -1,8 +1,8 @@
 ---
-title: "My Markdown Test"
+title: "Paper Mod 使用介绍"
 date: 2021-12-05T23:38:24+08:00
 # weight: 1
-# tags: ["first"]
+tags: ["tutorial"]
 author: "Haomiao"
 showToc: true
 TocOpen: false
@@ -31,9 +31,13 @@ TocOpen: false
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-sdfasdf
+Paper Mod 使用备忘
 <!--more-->
 
-## GOGO
-asdfsad
-看一下中文字体是啥
+## 常规设置
+1. 使用常用的 markdown语法
+2. 修改中文字体，放在 `static/fonts` 目录下，并通过 `layouts/partials/extend_head.html` 修改正文的字体
+
+## Features
+1. 插入 gist
+2. 插入 commment
