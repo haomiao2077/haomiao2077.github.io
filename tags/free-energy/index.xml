@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>free-energy on Haomiao</title>
+    <link>http://haomiao2077.github.io/tags/free-energy/</link>
+    <description>Recent content in free-energy on Haomiao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Dec 2021 19:47:59 +0800</lastBuildDate><atom:link href="http://haomiao2077.github.io/tags/free-energy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bennet Acceptance Ratio Method</title>
+      <link>http://haomiao2077.github.io/posts/acceptance_ratio_method/</link>
+      <pubDate>Thu, 09 Dec 2021 19:47:59 +0800</pubDate>
+      
+      <guid>http://haomiao2077.github.io/posts/acceptance_ratio_method/</guid>
+      <description>BAR 方法推导</description>
+    </item>
+    
+  </channel>
+</rss>
