@@ -10,16 +10,15 @@ minify:
 params:
   ShowReadingTime: true
   homeInfoParams:
-    Title: "PaperMod"
+    Title: "Prochemga"
     Content: >
-        Welcome to demo of hugo's theme PaperMod.
+        - Welcome to Haomiao's blog. 
 
-        - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+        - **Computer Programming**
 
-        - Do give a 🌟 on Github !
+        - **Computational Chemistry**
 
-        - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
+        - **Gaming and other things**
 
   fuseOpts:
     isCaseSensitive: false
